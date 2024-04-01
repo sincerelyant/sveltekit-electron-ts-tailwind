@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+	body {
+		@apply bg-zinc-900 text-zinc-200;
+		font-family: 'Roboto Mono', monospace;
+	}
+}

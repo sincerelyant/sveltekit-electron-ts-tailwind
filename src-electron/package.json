@@ -1,0 +1,17 @@
+{
+	"name": "sveltekit-electron-ts-tailwind",
+	"version": "1.0.0",
+	"main": "init.js",
+	"scripts": {
+		"dev": "tsc && concurrently \" electron .\" \"tsc -w\"",
+		"format": "prettier --write ."
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^8.2.2",
+		"electron": "^29.1.6",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.3"
+	}
+}
