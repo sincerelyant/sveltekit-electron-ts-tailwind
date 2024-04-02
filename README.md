@@ -1,5 +1,5 @@
 # SvelteKit + Electron + Typescript + Tailwind
-Clean and straightfoward sveltekit/electron boilerplate. You can use ES Modules with Electron in this template if you wish.
+Clean and straightfoward sveltekit/electron boilerplate. You can use `ES Modules` with Electron rather than `commonjs` if you wish.
 
 ### Getting Started
 There will be two `package.json` located in `/` and `/src-electron`. <br>
